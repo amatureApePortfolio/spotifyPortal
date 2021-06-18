@@ -7,7 +7,7 @@
 .Track-action {
   cursor: pointer;
   padding: .5rem;
-  font-size: 1.05rem;
+  font-size: 2.05rem;
   transition: color .25s;
   border: 0px;
   background-color: rgba(0, 0, 0, 0);
@@ -15,6 +15,10 @@
 }
 
 .Track-action:hover {
+  color: rgba(265, 265, 265, .5)
+}
+
+.Track-information {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
